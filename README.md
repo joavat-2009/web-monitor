@@ -51,6 +51,13 @@ Site https://fake-site.com is DOWN! Log: /home/user/webmon.log
 
 [2026-06-15 14:30:00] ALERT: https://fake-site.com is DOWN (HTTP 000)
 ```
+## Project Structure
+```tex
+web-monitor/
+├── webmon.sh           # Main monitoring script
+├── README.md           # Documentation
+└── webmon.log          # Log file (created automatically after first run)
+```
 ## How It Works
 
 1. Script checks if curl is installed.
